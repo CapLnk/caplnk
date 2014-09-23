@@ -1,0 +1,56 @@
+<!doctype html>
+<!--
+CapLnk (index.html) - Documentation for this CapLnk component.
+
+Copyright (C) 2014 by Gregory J Lamoree
+
+This file is part of the CapLnk component which is part of the
+CapLnk (Component - Application - Link) suite of components. 
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU Lesser General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU Lesser General Public License for more details.
+
+    You should have received a copy of the GNU Lesser General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+-->
+<html>
+    <head>
+        <meta charset="utf-8">          
+        <meta name="description" content="CAPLNK: Component - Application - Link" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+        <meta name="mobile-web-app-capable" content="yes" />
+
+        <script src="../platform/platform.js"></script>
+
+        <link rel="import" href="../lnk-app/lnk-app.html">
+
+        <title>CAPLNK: Component - Application - Link</title>
+        
+        <style>
+            html, body {
+                width: 100%;
+                border:0;
+                margin:0;
+                padding:0;
+            }
+        </style>
+
+    </head>
+    <body>
+        <lnk-app app-name="CapLnk" 
+                 menuorientation="vertical" 
+                 menualign="left" 
+                 menudefinition="menuItems"
+                 maincontent="mainContent"
+                 asidecontent="asideContent"
+                 headercontent="headerContent"
+                 footercontent="footerContent"></lnk-app>
+    </body>
+</html>
