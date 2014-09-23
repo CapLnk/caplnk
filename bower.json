@@ -1,14 +1,14 @@
 {
-  "name": "lnk-xxxx",
-  "version": "0.1.0",
+  "name": "caplnk",
+  "version": "0.1.3",
   "authors": [
     "Anonymous <glamoree@randomminds.com>"
   ],
-  "description": "CapLnk Component for .......",
-  "keywords": "lnk-xxxx, caplnk, polymer, web-components",
-  "main": "lnk-xxxx.html",
+  "description": "CapLnk Component - Application - Link",
+  "keywords": "caplnk, polymer, web-components",
+  "main": "index.html",
   "license": "LGPL V3",
-  "homepage": "https://github.com/CapLnk/lnk-xxxx",
+  "homepage": "https://github.com/CapLnk/caplnk",
   "ignore": [
     "**/.*",
     "test",
