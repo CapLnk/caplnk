@@ -5,7 +5,7 @@
     "Anonymous <glamoree@randomminds.com>"
   ],
   "description": "CapLnk Component - Application - Link",
-  "keywords": "caplnk, polymer, web-components",
+  "keywords": ["caplnk", "polymer", "web-components"],
   "main": "index.html",
   "license": "LGPL V3",
   "homepage": "https://github.com/CapLnk/caplnk",
